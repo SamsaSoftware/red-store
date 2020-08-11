@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  redstore:
+    image: redstore:latest
+    container_name: redstore
+    restart: always
+    volumes:
+      - ./docker/mongodb/data/db:/data/db
+    environment:
+      MONGO_INITDB_ROOT_DATABASE: zf2odm
