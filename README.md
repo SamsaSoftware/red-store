@@ -1,2 +1,5 @@
 # red-store
-red store docker container
+
+Red store docker container
+
+docker build --no-cache  .
